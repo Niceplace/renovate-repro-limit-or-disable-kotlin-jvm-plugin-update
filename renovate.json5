@@ -3,6 +3,7 @@
   "branchConcurrentLimit": 0,
   "packageRules": [    
     {
+      "matchFileNames": ["client-jvm-package/gradle/libs.versions.toml"],
       "matchPackageNames": ["org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin"],
       "allowedVersions": "<=2.0.10"
     }
