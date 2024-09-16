@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "branchConcurrentLimit": 0,
+  "packageRules": [
+    {
+      "groupName": "kotlin",
+      "matchPackagePrefixes": ["org.jetbrains.kotlin"]
+    },
+    {
+      "matchPackageNames": ["org.jetbrains.kotlin.jvm"],
+      "enabled": false
+    }
+  ],
+  "prCreation": "immediate",
+  "prConcurrentLimit": 0,
+  "timezone": "EST"
+}
