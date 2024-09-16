@@ -4,7 +4,7 @@
   "packageRules": [    
     {
       "matchPackageNames": ["org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin"],
-      "enabled": false
+      "allowedVersions": "<=2.0.10"
     }
   ],
   "prCreation": "immediate",
