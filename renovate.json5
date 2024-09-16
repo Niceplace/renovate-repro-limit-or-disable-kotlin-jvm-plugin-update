@@ -3,7 +3,7 @@
   "branchConcurrentLimit": 0,
   "packageRules": [    
     {
-      "matchPackageNames": ["org.jetbrains.kotlin.jvm"],
+      "matchPackageNames": ["org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin"],
       "enabled": false
     }
   ],
